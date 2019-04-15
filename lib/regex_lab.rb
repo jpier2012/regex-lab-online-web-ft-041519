@@ -1,5 +1,5 @@
 require 'pry'
-
+  word[0].match(/[aeiou]/) ? true : false
 
 
 

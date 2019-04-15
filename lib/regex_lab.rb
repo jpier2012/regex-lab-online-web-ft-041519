@@ -8,7 +8,7 @@ def starts_with_a_vowel?(word)
   end
 end
 
-#puts starts_with_a_vowel?("apple")
+puts starts_with_a_vowel?("afoot")
 
 def words_starting_with_un_and_ending_with_ing(text)
 

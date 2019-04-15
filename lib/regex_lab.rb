@@ -10,7 +10,6 @@ end
 
 test_text = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
 
-
 def words_five_letters_long(text)
   text.scan(/\b\w{5}\b/)
 end

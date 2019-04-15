@@ -2,10 +2,6 @@ require 'pry'
 
 def starts_with_a_vowel?(word)
   word[0].match(/[aeiou]/i) ? true : false
-    true
-  else
-    false
-  end
 end
 
 puts starts_with_a_vowel?("afoot")

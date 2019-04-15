@@ -2,6 +2,7 @@ require 'pry'
 
 def starts_with_a_vowel?(word)
   word[0].match(/[aeiou]+.*/) ? true : false
+  binding.pry
 end
 
 puts starts_with_a_vowel?("apple")
